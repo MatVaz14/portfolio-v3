@@ -46,8 +46,14 @@ const Experience = () => {
       <Swiper
           slidesPerView={1}
           spaceBetween={-15}
+                            autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
+                    modules={[Autoplay, Pagination, Navigation]}
+          className="mySwiper"
         >
           {ExperienceData?.map((data) => (
             <SwiperSlide>

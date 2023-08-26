@@ -1,0 +1,10 @@
+.video {
+	position: absolute; 
+	width: 100%; 
+	height: 90%;
+	z-index: 3000;
+
+}
+.noVideo {
+	display: none;
+}
