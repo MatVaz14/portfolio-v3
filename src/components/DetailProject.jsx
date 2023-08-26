@@ -11,6 +11,9 @@ import {
 } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const DetailProject = ({position}) => {
 	const handleDetail = () => {
@@ -23,7 +26,7 @@ const DetailProject = ({position}) => {
                 })
 	}
 	return (
-		<div className="container-detail-project">
+		<div className="container-detail-project"  data-aos="fade-right">
 			<h1 onClick={handleDetail}>{Projects[position].name}</h1>
 			<div className="line-bg"/>
 			<h2>{Projects[position].title}</h2>

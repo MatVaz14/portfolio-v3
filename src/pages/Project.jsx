@@ -10,6 +10,10 @@ import {
 import { Projects } from "../constants";
 import { DetailProject, ProjectView } from "../components";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 const Project = () => {
 	const [position, setPosition] = useState(0);
 
@@ -31,12 +35,12 @@ const Project = () => {
 
 			<DetailProject position={position}/>
 
-			<div className="container-btn">
+			<div className="container-btn" data-aos="zoom-in-down">
         	<BsFillArrowLeftCircleFill className={`btn-np ${position === 0 ? "disable" : "enable"}`} onClick={handleClickPrev}/>
         	<BsFillArrowRightCircleFill className={`btn-np ${position === Projects.length  - 1? "disable" : "enable"}`} onClick={handleClick} />
      	</div>
 
-		<div className="container-img-project">
+		<div className="container-img-project" data-aos="zoom-in-left">
 			{
 			<ProjectView image={Projects[position].img}/>
 			}
