@@ -29,7 +29,7 @@
 	justify-content: center;
 }
 .container-text-about h1 {
-	font-size: 46px;
+	font-size: 43px;
 	display: flex;
 	align-items: center;
 }
@@ -37,10 +37,11 @@
 	font-size: 66px;
 }
 .container-text-about p {
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 18px;
+	line-height: 30px;
 }
 .section-about button {
+	transition: .5s;
 	background: none;
 	color: white;
 	font-size: 18px;
@@ -51,6 +52,26 @@
 	width: 200px;
 	margin: 10px 15px;
 	font-family: 'Krona One';
+}
+.section-about button:hover {
+	transition: .3s;
+	transform: scale(1.05);
+}
+
+.container-text-about span {
+    font-size: 40px;
+    animation: moveHand 3s infinite;
+}
+@keyframes moveHand {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 @media (max-width: 935px) {
 	.section-about img {
