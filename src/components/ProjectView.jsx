@@ -4,16 +4,20 @@ import play from "../assets/play.png";
 const ProjectView = ({ image }) => {
   return (
     <div className={style.container}>
+      
       <div className={style.containerImg}>
+
         <img
           src={image}
+          loading="lazy"
           alt="imageProject"
           width="430"
           height="300"
-          className={style.one}
-        />
+          className={style.one}/>
+        
         <img
           src={image}
+          loading="lazy"
           alt="imageProject"
           width="430"
           height="300"
@@ -22,6 +26,7 @@ const ProjectView = ({ image }) => {
         <img
           src={image}
           alt="imageProject"
+          loading="lazy"
           width="430"
           height="300"
           className={style.three}

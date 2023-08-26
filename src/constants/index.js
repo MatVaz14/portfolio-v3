@@ -71,6 +71,7 @@ const Projects = [
     • Filtro por orden de Población.
     • Filtro por orden Alfabetico.
     `,
+    url: ''
   },
   {
     title: "Proyecto Grupal - Henry",
@@ -94,6 +95,7 @@ El proyecto fue todo un reto y demostró ser uno de los mejores en su grupo, sie
     githubFront: "https://github.com/MatVaz14/crm-front",
     githubBack: "https://github.com/HanJian16/CRMBack",
     githubFull: "",
+    url: 'https://www.youtube.com/watch?v=EGDI0xhNJ0s'
   },
   {
     title: "Proyecto Individual - Henry",
@@ -111,6 +113,7 @@ El proyecto fue todo un reto y demostró ser uno de los mejores en su grupo, sie
     • Filtro por orden de Nivel Saludable.
     • Filtro por orden Alfabetico.
     `,
+    url: ''
   },
 ];
 

@@ -14,6 +14,17 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+// Import Swiper styles
+import 'swiper/css';
+
+
 const Project = () => {
 	const [position, setPosition] = useState(0);
 

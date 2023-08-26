@@ -7,7 +7,7 @@ import ProjectView from "./ProjectView.jsx";
 import DetailProject from "./DetailProject.jsx";
 import CardContact from "./CardContact.jsx";
 import Form from "./Form.jsx";
-
+import ViewVideo from "./ViewVideo.jsx";
 
 export {
 	Navbar,
@@ -18,5 +18,6 @@ export {
 	ProjectView,
 	DetailProject,
 	CardContact,
-	Form
+	Form,
+	ViewVideo
 }

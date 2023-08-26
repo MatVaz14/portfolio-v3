@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     width: 430px;
     height: 300px;
 }
@@ -12,10 +13,12 @@
     border-radius: 5px;
     transform: perspective(250px) rotateY(-10deg);
 }
+
 .container .containerImg .one{
     transition: .5s;
     z-index: 10;
 }
+
 .container .containerImg .one:hover {
     transition: .3s;
     transform: scale(1.1)rotateY(-20deg);

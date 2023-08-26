@@ -1,4 +1,34 @@
+.header-detail {
+	display: flex;
+	align-items: center;
+}
+.play-video {
+	margin-left: 20px;
+	font-size: 50px;
+	cursor: pointer;
+	color: white;
+}
+.exit {
+	font-size: 30px;
+	margin: 5px;
+	cursor: pointer;
+}
+.verVideo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+}
+.container-relative {
+	position: relative;
+	height: 100%;
+}
+
 .container-detail-project {
+	position: relative;
 	width: 450px;
 	height: 60%;
 	display: flex;
