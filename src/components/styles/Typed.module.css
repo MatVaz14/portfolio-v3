@@ -1,0 +1,15 @@
+.typed {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+@media (max-width: 935px) {
+	.typed h3{
+		justify-content: center;
+		align-items: center;
+		font-size: 22px;
+	}
+}

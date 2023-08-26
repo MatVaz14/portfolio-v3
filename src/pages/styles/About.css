@@ -1,0 +1,75 @@
+.section-about {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	min-height: max-content;
+	margin: 0 auto;
+	max-height: 720px;
+}
+.style-div-img {
+	position: absolute;
+	top: 0px;
+	right: -50px;
+}
+.section-about .style-img-about {
+	transition: 1s;
+	transform: perspective(250px) rotateY(15deg);
+}
+.section-about img:hover {
+	transition: 1s;
+	transform: perspective(250px) rotateY(5deg);
+}
+.container-text-about {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container-text-about h1 {
+	font-size: 46px;
+	display: flex;
+	align-items: center;
+}
+.container-text-about h1 span {
+	font-size: 66px;
+}
+.container-text-about p {
+	font-size: 20px;
+	line-height: 35px;
+}
+.section-about button {
+	background: none;
+	color: white;
+	font-size: 18px;
+	border: 2px solid white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 200px;
+	margin: 10px 15px;
+	font-family: 'Krona One';
+}
+@media (max-width: 935px) {
+	.section-about img {
+		display: none;
+	}
+	.container-text-about {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+	.container-text-about h1 {
+		font-size: 30px;
+	}
+	.container-text-about p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.container-text-about button {
+		font-size: 14px;
+		width: 160px;
+	}
+}

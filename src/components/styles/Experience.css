@@ -1,0 +1,17 @@
+.container-xl {
+	display: flex;
+	flex-direction: row;
+}
+.container-sm {
+	display: none;
+}
+
+@media (max-width: 600px){
+	.container-sm {
+		display: flex;
+		padding: 0 20px;
+	}
+	.container-xl {
+		display: none;
+	}
+}

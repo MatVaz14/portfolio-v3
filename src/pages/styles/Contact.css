@@ -1,0 +1,11 @@
+.section-contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 100vh;
+  max-height: 720px;
+}
+.section-contact div {
+  margin: auto;
+}

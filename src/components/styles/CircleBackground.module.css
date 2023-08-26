@@ -1,0 +1,24 @@
+.circleBg {
+    position: absolute;
+    z-index: -1;
+    right: -18%;
+    top: -10%;
+    /* width: 780px;
+    height: 759px; */
+    width: 55%;
+    height: 120%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(50,47,203,1) 0%, rgba(1,0,36,1) 65%, rgba(0,0,0,1) 87%);
+}
+.circleBgWhite {
+    position: absolute;
+    z-index: -2;
+    right: -12.5%;
+    top: -5%;
+    /* width: 725px;
+    height: 735px; */
+    width: 51%;
+    height: 120%;
+    border-radius: 50%;
+    background: white;
+}

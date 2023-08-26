@@ -1,0 +1,36 @@
+.container-detail-project {
+	width: 450px;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.container-detail-project h1 {
+	width: fit-content;
+	font-size: 42px;
+	cursor: pointer;
+}
+.container-detail-project .line-bg {
+	background-color: white;
+	width: 80%;
+	height: 6px;
+	margin: 10px 0;
+}
+.container-detail-project h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.container-detail-project .container-links {
+	margin-top: auto;
+}
+.container-detail-project .container-links .style-link {
+	transition: .5s;
+	font-size: 35px;
+	color: white;
+}
+.container-detail-project .container-links .style-link:hover {
+	transition: .3s;
+	transform: scale(1.1);
+}
