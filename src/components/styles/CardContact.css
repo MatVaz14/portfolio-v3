@@ -1,23 +1,22 @@
 .container-card-contact {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
 	width: 100%;
 	justify-content: center;
+	height: 90%;
+	margin: auto;
 	align-items: center;
-	margin: 0 auto;
 }
 
 .container-card-contact span {
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .container-card-contact a {
 	transition: .4s;
 	border: 2px solid white;
 	padding: 5px;
-	margin: 5px 0;
-	margin-top: 10px;
+	margin-top: 20px;
 	display: flex;
 	border-radius: 5px;
 	justify-content: center;
@@ -25,26 +24,34 @@
 	width: 150px;
 	height: 30px;
 	font-size: 12px;
+	color: white;
 	font-family: "Krona One";
+}
+.container-card-contact a  .btn-card {
+	margin: auto;
+	width: fit-content;
+	height: fit-content;
 }
 .container-card-contact a:hover {
 	transition: .3s;
 	transform: scale(1.1);
 }
 
-.card-contact {
+.container-card-contact .card-contact {
 	background-color: rgba(0, 0, 0, 0.3);
-	width: 300px;
+	width: 350px;
 	height: 150px;
 	display: flex;
+	padding: 20px 0;
 	flex-direction: column;
 	align-items: center;
-	margin: 10px 0;
 	border-radius: 10px;
+	margin: 10px 0;
 }
 
 .icon {
-	margin: 20px 0;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	font-size: 28px;
 	color: white;
 }

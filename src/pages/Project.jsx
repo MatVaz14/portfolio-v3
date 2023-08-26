@@ -36,7 +36,7 @@ const Project = () => {
         	<BsFillArrowRightCircleFill className={`btn-np ${position === Projects.length  - 1? "disable" : "enable"}`} onClick={handleClick} />
      	</div>
 
-		<div>
+		<div className="container-img-project">
 			{
 			<ProjectView image={Projects[position].img}/>
 			}

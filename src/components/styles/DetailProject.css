@@ -34,3 +34,24 @@
 	transition: .3s;
 	transform: scale(1.1);
 }
+
+@media (max-width: 935px) {
+	.container-detail-project {
+		width: 80%;
+		height: 350px;
+		min-height: fit-content;
+	}
+	.container-detail-project h1 {
+		font-size: 30px;
+	}
+	.container-detail-project .line-bg {
+	height: 3px;
+	}
+.container-detail-project h2 {
+	font-size: 18px;
+}
+.container-detail-project p {
+	font-size: 14px;
+	line-height: 25px;
+}
+}

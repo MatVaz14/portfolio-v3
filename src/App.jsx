@@ -9,7 +9,6 @@ const App = () => {
       <Skill />
       <Project />
       <Contact />
-      <Footer />
     </div>
   )
 }

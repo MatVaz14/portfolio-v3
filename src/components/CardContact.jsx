@@ -14,7 +14,7 @@ const CardContact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div>Ir a LinkedIn</div>
+          <div className="btn-card">Ir a LinkedIn</div>
         </a>
       </div>
       <div className="card-contact">
@@ -25,7 +25,7 @@ const CardContact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div>Enviar Correo</div>
+          <div className="btn-card">Enviar Correo</div>
         </a>
       </div>
       <div className="card-contact">
@@ -36,7 +36,7 @@ const CardContact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div>Enviar Mensaje</div>
+          <div className="btn-card">Enviar Mensaje</div>
         </a>
       </div>
     </div>

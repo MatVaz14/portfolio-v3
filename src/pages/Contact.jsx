@@ -5,10 +5,10 @@ import { Form, CardContact } from "../components";
 const Contact = () => {
   return (
     <section id="contact" className="section-contact">
-      <div>
+      <div className="container-contact">
         <Form />
       </div>
-      <div>
+      <div className="container-contact">
         <CardContact />
       </div>
     </section>

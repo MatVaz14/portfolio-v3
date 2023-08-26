@@ -6,6 +6,13 @@
   height: 100vh;
   max-height: 720px;
 }
-.section-contact div {
+.section-contact .container-contact {
   margin: auto;
+  height: 100%;
+}
+
+@media (max-width: 935px){
+  .section-contact .container-contact {
+    width: 100%;
+  }
 }

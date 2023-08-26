@@ -31,7 +31,34 @@
 
 @media (max-width: 935px){
 	.section-project {
+		width: 100%;
 		height: max-content;
 		padding: 50px 0;
+		padding-bottom: 100px;
 	}
+	.container-btn {
+		z-index: 1000;
+		display: flex!important;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		flex-direction: row!important;
+	}
+.section-project .container-btn .btn-np {
+	transition: .5s;
+	font-size: 50px;
+	height: 60px;
+}
+.enable {
+	transition: .5s;
+	color: white;
+}
+.disable {
+	.transition: .5s;
+	color: rgba(277, 277, 277, 0.3);
+	transform: scale(0.9);
+}
+.container-img-project {
+	margin-top: 50px;
+}
 }
