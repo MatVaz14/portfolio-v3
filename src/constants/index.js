@@ -64,7 +64,7 @@ const Projects = [
     deploy: "",
     githubFront: "",
     githubBack: "",
-    githubFull: "https://github.com/MatVaz14/countriesProject",
+    githubFull: "https://github.com/MatVaz14/countries-app",
     more: `Esta plataforma contiene funcionalidades como:
     • Creación de Actividades.
     • Filtro por Continentes.
