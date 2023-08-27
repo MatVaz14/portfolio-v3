@@ -100,3 +100,10 @@
 		height: 65%;
 	}
 }
+
+@media (min-height: 700px) and (max-height: 935px){
+	.section-home {
+		height: 100vh!important;
+		max-height: 100vh;
+	}
+}

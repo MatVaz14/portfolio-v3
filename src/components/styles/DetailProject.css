@@ -28,6 +28,7 @@
 }
 
 .container-detail-project {
+	z-index: 1000;
 	position: relative;
 	width: 450px;
 	height: 60%;
@@ -86,6 +87,7 @@
 
 @media (max-width: 935px) {
 	.container-detail-project {
+		z-index: 1000;
 		width: 80%;
 		height: max-content;
 		padding-bottom: 50px;
