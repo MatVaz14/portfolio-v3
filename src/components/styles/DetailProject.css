@@ -87,8 +87,9 @@
 @media (max-width: 935px) {
 	.container-detail-project {
 		width: 80%;
-		height: 350px;
-		min-height: fit-content;
+		height: max-content;
+		padding-bottom: 50px;
+		min-height: max-content!important;
 	}
 	.container-detail-project h1 {
 		font-size: 30px;

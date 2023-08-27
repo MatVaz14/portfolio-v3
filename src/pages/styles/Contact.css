@@ -7,17 +7,28 @@
   height: 100vh;
   max-height: 720px;
 }
+.section-contact img{
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 50%;
+  max-width: 600px;
+}
 .section-contact .container-contact {
   margin: auto;
   height: 100%;
 }
 
 @media (max-width: 935px){
+  .section-contact img {
+    width: 300px;
+    left: 0;
+  }
   .section-contact {
     height: max-content;
     max-height: max-content;
     padding: 50px 0;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .section-contact .container-contact {
     width: 100%;
