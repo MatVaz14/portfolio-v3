@@ -55,7 +55,11 @@ const Project = () => {
 			{
 			<ProjectView image={Projects[position].img}/>
 			}
+			<div className="pink__gradient"/>
 		</div>
+
+		<div className="blue__gradient"/>
+		<div className="celeste__gradient" />
 
 		</section>
 	)

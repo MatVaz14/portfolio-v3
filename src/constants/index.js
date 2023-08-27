@@ -1,5 +1,5 @@
 import AboutImage from "../assets/AboutMe.png";
-import CV from "./MatiasVazquez-CV2023.pdf";
+import CV from "../MatiasVazquez-CV2023.pdf";
 
 import CRM from "../assets/crmApp.jpg";
 import FOOD from "../assets/foodApp.jpg";

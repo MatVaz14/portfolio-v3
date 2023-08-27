@@ -15,6 +15,7 @@ const Contact = () => {
       <div className="container-contact" data-aos="fade-left">
         <CardContact />
       </div>
+      <div className="celeste__gradient"/>
     </section>
   );
 };

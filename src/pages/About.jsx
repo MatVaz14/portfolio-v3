@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 
 import { AboutMe } from "../constants";
 import divSection from "../assets/divSection3.png";
+import CV from "../MatiasVazquez-CV2023.pdf";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,9 +19,11 @@ const About = () => {
 				<p>{AboutMe.text}</p>
 				<div className="container-btn-about">
 					<Link to="contact"><button>Contactar</button></Link>
-					<a href={`${AboutMe.CV}`} download={`${AboutMe.download}`}><button>Descargar CV</button></a>
+					<a href={CV} download="Matias Vazquez - CV.pdf"><button>Descargar CV</button></a>
 				</div>
+							<div className="blue__gradient"/>
 			</div>
+
 		</section>
 	)
 }

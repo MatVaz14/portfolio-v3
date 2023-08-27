@@ -1,4 +1,5 @@
 .section-contact {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -22,3 +23,36 @@
     width: 100%;
   }
 }
+
+.section-contact .blue__gradient {
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  width: 400px;
+  height: 400px;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #071D45 100%);
+    filter: blur(130px);
+    z-index: -5;
+}
+
+.section-contact .celeste__gradient {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 330px;
+  height: 330px;
+    background: rgb(0, 152, 161);
+    filter: blur(260px);
+    z-index: 0;
+}
+.section-contact .pink__gradient {
+position: absolute;
+right: 0px;
+top: 0px;
+  background: #28023A;
+  width: 330px;
+height: 330px;
+  filter: blur(130px);
+  z-index: -1;
+}
+
