@@ -95,12 +95,13 @@
 	}
 }
 
-.blue__gradient {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 400px;
-  height: 400px;
-    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #071D45 100%);
-    filter: blur(20px);
+.blue__gradient_about {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 330px;
+	height: 330px;
+	  background: rgba(48, 43, 184, 0.589);
+	  filter: blur(260px);
+	  z-index: 0;
 }

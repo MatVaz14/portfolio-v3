@@ -53,6 +53,11 @@
 	font-size: 22px;
 	margin-bottom: 10px;
 }
+.container-detail-project .style-description {
+	font-size: 18px;
+	font-family: 'Poppins';
+	margin-bottom: 20px;
+}
 .container-detail-project .container-links {
 	width: 100%;
 	margin-top: auto;

@@ -65,6 +65,10 @@
 	transform: perspective(250px) rotateY(0deg);
 }
 @media (max-width: 935px) {
+	.section-home {
+		height: 100vh!important;
+		max-height: 100vh;
+	}
 	.style-img-logo {
 		height: 270px;
 		width: 100%;
@@ -107,3 +111,15 @@
 		max-height: 100vh;
 	}
 }
+
+.section-home .blue__gradient {
+	position: absolute;
+	top: -200px;
+	left: -130px;
+	width: 430px;
+	height: 430px;
+	  background: rgb(55, 90, 195);
+	  filter: blur(260px);
+	  z-index: 0;
+  }
+  
