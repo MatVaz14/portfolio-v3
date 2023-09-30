@@ -1,4 +1,4 @@
-import styleForm from "./styles/Form.css";
+import "./styles/Form.css";
 
 import { useRef } from "react";
 

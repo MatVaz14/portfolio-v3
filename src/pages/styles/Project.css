@@ -25,7 +25,8 @@
 	color: white;
 }
 .disable {
-	.transition: .5s;
+	transition: .5s;
+	cursor:no-drop!important;
 	color: rgba(277, 277, 277, 0.3);
 	transform: scale(0.9);
 }

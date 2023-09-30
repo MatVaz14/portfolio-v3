@@ -64,7 +64,7 @@
 	transition: .5s;
 	transform: perspective(250px) rotateY(0deg);
 }
-@media (max-width: 935px) {
+@media (max-width: 1108px) {
 	.section-home {
 		height: 100vh!important;
 		max-height: 100vh;
@@ -100,8 +100,8 @@
 		display: flex;
 		position: absolute;
 		bottom: 0;
-		min-width: 600px;
-		height: 65%;
+		min-width: 150vw;
+		height: 55%;
 	}
 }
 
