@@ -7,6 +7,7 @@ import { TypedText, CircleBackground } from "../components";
 
 import styleHome from "./styles/Home.css";
 import logoMV from "../assets/LogoMV.png";
+import CV from "../MatiasVazquez-CV2023.pdf";
 import circle from "../assets/circle.png";
 import circleMobile from "../assets/circleMobile.png";
 
@@ -42,6 +43,14 @@ const Home = () => {
           Matias Vazquez
         </h1>
         <TypedText />
+        <div className="container-contact">
+          <Link to="contact">
+            <button>Contactar</button>
+          </Link>
+          <a href={CV} download="Matias Vazquez - CV.pdf">
+            <button>Descargar CV</button>
+          </a>
+        </div>
       </div>
       <div>
         <Link to="contact">

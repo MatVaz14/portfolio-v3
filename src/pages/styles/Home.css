@@ -18,6 +18,28 @@
 	align-items: center;
 	margin-right: 150px;
 }
+.bg-text-home .container-contact {
+	z-index: 100;
+	margin-top: 20px;
+	margin-bottom: -50px;
+}
+.bg-text-home button {
+	transition: .5s;
+	background: none;
+	color: white;
+	font-size: 18px;
+	border: 2px solid white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 200px;
+	margin: 10px 15px;
+	font-family: 'Krona One';
+}
+.bg-text-home button:hover {
+	transition: .3s;
+	transform: scale(1.05);
+}
 .circle {
 	position: absolute;
 	overflow-x: hidden;
@@ -76,6 +98,13 @@
 	}
 	.style-img-logo:hover {
 		transform: translateY(-30px);
+	}
+	.bg-text-home button {
+		width: 170px;
+		box-sizing: border-box;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 14px;
 	}
 	.social {
 		display: none;
